@@ -208,7 +208,7 @@ img[src="/images/logo.svg"] {
 
 /* Notification */
 .icon.fa.fa {
-    color: white;
+    color: red;
 }
 
 .ui.left.aligned.header .content {
