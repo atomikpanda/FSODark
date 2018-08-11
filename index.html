@@ -1,12 +1,79 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>FSO Dark</title>
-	<script>
+	<title>FSO Dark Mode</title>
+	<meta name="viewport" content="width=device-width, initial-scale=0.8">
+	<!--<script>
 	window.location.replace("https://chrome.google.com/webstore/detail/fso-dark/cfhjocfkmmpmibinieklbnipgnooloal")
-	</script>
+	</script>-->
+	<style>
+		body {
+			background-color: #232325;
+			font-family: 'SF Pro Display', 'Helvetica Neue', sans-serif;
+			color: white;
+		}
+		b {
+			font-weight: 400;
+		}
+
+		h1, h2 {
+			color: white;
+			font-weight: 300;
+			width: 100%;
+			text-align: left;
+		}
+		h1 {
+			text-align: center;
+		}
+		h2 {
+			line-height: 80%;
+		}
+		#content {
+			width: 340px;
+			margin-left: auto;
+			margin-right: auto;
+		
+		}
+		#logo {
+			width: 50px;
+			height: 50px;
+			background-image: url("./logo.png");
+			background-size: 50px 50px;
+			display: block;
+			margin-top: 50px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		a {
+			color: #fb8847;
+		}
+		#github {
+			color: #aaa;
+			margin-top: 50px;text-align: center;
+		}
+
+		*::selection {
+			background-color: rgba(251, 136, 70, 0.4);
+			color: white;
+		}
+	</style>
 </head>
+
 <body>
-<a href="https://chrome.google.com/webstore/detail/fso-dark/cfhjocfkmmpmibinieklbnipgnooloal">View in Chrome Web Store</a>
+	<div id="content">
+	<h1>FSO Dark Mode</h1>
+	<!-- <a href="https://chrome.google.com/webstore/detail/fso-dark/cfhjocfkmmpmibinieklbnipgnooloal">View in Chrome Web Store</a> -->
+	<h2>
+		1. Install <b>Stylus</b> for <a href="https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en" target="_blank">Chrome</a> or <a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/styl-us/">Firefox</a>
+	</h2>
+	<h2>
+		2. Install the <a target="_blank" href="https://userstyles.org/styles/163133/fso-full-sail-online-dark-mode">FSO Dark Stylesheet</a>
+	</h2>
+	<p id="github">If you want to contribute see the <a target="_blank" href="https://github.com/atomikpanda/FSODark">github</a> page.</p>
+	<a id="logo_link" href="https://baileyseymour.com"><div id="logo"></div></a>
+</div>
 </body>
+
 </html>
